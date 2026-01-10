@@ -18,6 +18,15 @@
     line-height: 20px;
     font-family: var(--font-text);
 }
+.text-qui-suis-je strong {
+    font-weight: 800 !important;
+    color: var(--color-link);
+}
+.text-qui-suis-je em {
+    font-weight: 700 !important;
+    font-style: italic !important;
+    color: var(--color-bg-2);
+}
 body {
     background-color: var(--color-white);
 }
@@ -420,7 +429,7 @@ main {
     .contain-temoignages .avis {
         width: 49.1%;
     }
-    
+
     /****** FOOTER ******/
     .section-footer .content-section {
         gap: 40px;
